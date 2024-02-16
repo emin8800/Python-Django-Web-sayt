@@ -1,0 +1,70 @@
+/* CSS stil örneği */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  max-width: 500px;
+  width: 100%;
+  padding: 120px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+}
+
+.login-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #be2121;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover {
+  background: #46db28;
+}
+
+.register-link {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+
